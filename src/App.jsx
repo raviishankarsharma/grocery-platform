@@ -56,9 +56,7 @@ const App = () => {
         ],
       },
     ],
-    {
-      basename: "/grocery-platform",
-    },
+   
   );
 
   return <RouterProvider router={router} />;
