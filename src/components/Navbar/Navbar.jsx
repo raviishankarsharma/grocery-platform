@@ -36,36 +36,36 @@ const Navbar = () => {
         {/* Desktop-Menu */}
         <ul className="md:flex gap-x-15 items-center hidden">
           <li>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="font-semibold tracking-wider text-orange-500"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/AboutUs"
+            <Link
+              to="/AboutUs"
               className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
             >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/Process"
+            <Link
+              to="/Process"
               className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
             >
               Process
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/ContactUs"
+            <Link
+              to="/ContactUs"
               className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
             >
               Contact Us
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -110,36 +110,36 @@ const Navbar = () => {
           className={`flex flex-col gap-y-12 items-center md:hidden absolute top-30 -left-full transform -translate-x-1/2 bg-orange-500/15 backdrop-blur-lg rounded-xl p-10 transition-all duration-500 shadow-xl ${ShowMenu ? "left-1/2" : " "}`}
         >
           <li>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="font-semibold tracking-wider text-orange-500"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/AboutUs"
+            <Link
+              to="/AboutUs"
               className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
             >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/Process"
+            <Link
+              to="/Process"
               className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
             >
               Process
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/ContactUs"
+            <Link
+              to="/ContactUs"
               className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
             >
               Contact Us
-            </a>
+            </Link>
           </li>
           <li className="flex border-2 border-orange-500 rounded-full p-1 md:hidden">
             <input
