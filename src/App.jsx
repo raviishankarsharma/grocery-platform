@@ -3,7 +3,7 @@ import Home from "./components/Home/Home";
 import Fruits from "./components/Fruits/Fruits";
 import {
   BrowserRouter,
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import Dairy from "./components/Dairy/Dairy";
@@ -15,7 +15,7 @@ import Process from "./components/Process/Process";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     [
       {
         path: "/",
